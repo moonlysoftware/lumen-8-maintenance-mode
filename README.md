@@ -7,7 +7,7 @@ php 7.2 Lumen 5.8
 ## How to install
 
 ```
-composer require j3rrey/lumen-maintenance-mode
+composer require j3rrey/lumen-5-maintenance-mode
 ```
 
 ## How to configure
