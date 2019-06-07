@@ -53,7 +53,8 @@ php artisan up
 
 ## IP released for access
 Currently only ipv4 and no iprange
-In .env file
+
+Add ALLOWED_IPS in your .env file
 
 ```
 ALLOWED_IPS=192.168.1.2,127.0.0.1,136.22.16.0
