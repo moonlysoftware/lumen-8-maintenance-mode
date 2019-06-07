@@ -33,7 +33,9 @@ Add the up and down commands in app/console/Kernel.php
 ```
 
 
-## Set View
+## Add/Set View
+
+Example views at the bottom
 
 ```
 resources/views/errors/503.blade.php
@@ -59,7 +61,7 @@ In .env file
 ALLOWED_IPS=999.99.9.999,999.99.9.999,999.99.9.999
 ```
 
-##Example view
+## Example view
 
 Laravel 503 blade file:
 https://github.com/laravel/laravel/blob/696ab5149e6b6169f73b75321eaabf47a4a26645/resources/views/errors/503.blade.php
