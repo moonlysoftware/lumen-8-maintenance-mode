@@ -16,13 +16,13 @@
   },
   "autoload": {
     "psr-4": {
-      "J3rrey\\MaintenanceMode\\": "src"
+      "j3rrey\\MaintenanceMode\\": "src"
     }
   }
   ,
   "autoload-dev": {
     "psr-4": {
-      "J3rrey\\MaintenanceMode\\Testing\\": "src/tests/MaintenanceMode/"
+      "j3rrey\\MaintenanceMode\\Testing\\": "src/tests/MaintenanceMode/"
     }
   },
   "config":{
