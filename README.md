@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/j3rrey/lumen-maintenance-mode.svg)](https://travis-ci.org/j3rrey/lumen-maintenance-mode)
 
-
+php 7.2 Lumen 5.8
 
 ## How to install
 
