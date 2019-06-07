@@ -78,11 +78,6 @@ class MaintenanceModeService
      */
     public function setDownMode()
     {
-        $viewPath = $this->app->resourcePath('/view/errors/503.blade.php');
-        if( !$this->verifyViewExists($viewPath) ){
-            $this->createMaintenanceView($viewPath);
-        }
-
         $file = $this->maintenanceFilePath();
 
         if (!touch($file)) {
@@ -130,33 +125,4 @@ class MaintenanceModeService
 
         return in_array($ip, $allowed);
     }
-
-    /**
-     * @param string $filePath
-     * @return bool
-     */
-    public function verifyViewExists(string $filePath): bool
-    {
-        if(!file_exists($filePath)){
-            return false;
-        }
-
-        return true;
-    }
-
-    /**
-     * @param string $filePath
-     * @return bool | int
-     */
-    private function createMaintenanceView(string $filePath) : bool
-    {
-        touch($filePath);
-        return file_put_contents(
-            $filePath,
-            file_get_contents(
-                $this->app->basePath('/view/503.blade.php')
-            )
-        );
-    }
-
 }
