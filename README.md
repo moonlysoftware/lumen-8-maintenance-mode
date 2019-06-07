@@ -15,7 +15,7 @@ composer require j3rrey/lumen-maintenance-mode
 ```
 
 ## How to configure
-In bootstrap/app.php, add this instruction in providers
+Add this to your AppServiceProvider or in bootstrap/app.php
 
 ```
 $app->register(
