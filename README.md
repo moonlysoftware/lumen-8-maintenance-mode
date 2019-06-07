@@ -1,15 +1,18 @@
-# Lumen maintenance mode
+# Lumen 5.8 simple maintenance mode
 
-[![Latest Stable Version](https://poser.pugx.org/rdehnhardt/lumen-maintenance-mode/v/stable)](https://packagist.org/packages/rdehnhardt/lumen-maintenance-mode)
-[![Total Downloads](https://poser.pugx.org/rdehnhardt/lumen-maintenance-mode/downloads)](https://packagist.org/packages/rdehnhardt/lumen-maintenance-mode)
-[![License](https://poser.pugx.org/rdehnhardt/lumen-maintenance-mode/license)](https://packagist.org/packages/rdehnhardt/lumen-maintenance-mode)
-[![Build Status](https://travis-ci.org/rdehnhardt/lumen-maintenance-mode.svg)](https://travis-ci.org/rdehnhardt/lumen-maintenance-mode)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/rdehnhardt/lumen-maintenance-mode/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/rdehnhardt/lumen-maintenance-mode/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/j3rrey/lumen-maintenance-mode/v/stable)](https://packagist.org/packages/j3rrey/lumen-maintenance-mode)
+[![Total Downloads](https://poser.pugx.org/j3rrey/lumen-maintenance-mode/downloads)](https://packagist.org/packages/j3rrey/lumen-maintenance-mode)
+[![License](https://poser.pugx.org/j3rrey/lumen-maintenance-mode/license)](https://packagist.org/packages/rdehnhardt/lumen-maintenance-mode)
+[![Build Status](https://travis-ci.org/j3rrey/lumen-maintenance-mode.svg)](https://travis-ci.org/rdehnhardt/lumen-maintenance-mode)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/j3rrey/lumen-maintenance-mode/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/j3rrey/lumen-maintenance-mode/?branch=master)
+
+
+
 
 ## How to install
 
 ```
-composer require rdehnhardt/lumen-maintenance-mode
+composer require J3rrey/lumen-maintenance-mode
 ```
 
 ## How to configure
@@ -17,9 +20,19 @@ In bootstrap/app.php, add this instruction in providers
 
 ```
 $app->register(
-    Rdehnhardt\MaintenanceMode\Providers\MaintenanceModeServiceProvider::class
+    j3rrey\MaintenanceMode\Providers\MaintenanceModeServiceProvider::class
 );
 ```
+
+Add the up and down commands in app/console/Kernel.php
+
+```
+    protected $commands = [
+        \J3rrey\MaintenanceMode\Console\Commands\DownCommand::class,
+        \J3rrey\MaintenanceMode\Console\Commands\UpCommand::class
+    ];
+```
+
 
 ## Set View
 
