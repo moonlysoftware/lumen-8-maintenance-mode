@@ -1,38 +1,34 @@
 {
-  "name": "rdehnhardt/lumen-maintenance-mode",
+  "name": "j3rrey/lumen-maintenance-mode",
   "type": "library",
   "description": "Define application maintenance mode.",
   "keywords": ["lumen", "maintenance", "mode"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Renato Dehnhardt",
-      "email": "renatotkd@gmail.com"
+      "name": "no one",
+      "email": "nono@nono.com"
     },
-    {
-      "name": "Vagner do Carmo",
-      "email": "vluzrmos@gmail.com"
-    }
   ],
   "require": {
     "php": ">=5.5.9",
-    "laravel/lumen-framework": "~5.0"
+    "laravel/lumen-framework": "~5.8"
   },
   "require-dev": {
-    "laravel/lumen":"~5.0",
-    "phpunit/phpunit": "~4.0",
-    "fzaninotto/faker": "v1.4.0",
-    "fabpot/php-cs-fixer": "~1.11"
+    "laravel/lumen":"~5.8",
+    "phpunit/phpunit": "~7.0",
+    "fzaninotto/faker": "^1.4.0",
+    "friendsofphp/php-cs-fixer": "^2.15",
   },
   "autoload": {
     "psr-4": {
-      "Rdehnhardt\\MaintenanceMode\\": "src"
+      "J3rrey\\MaintenanceMode\\": "src"
     }
   }
   ,
   "autoload-dev": {
     "psr-4": {
-      "Rdehnhardt\\MaintenanceMode\\Testing\\": "src/tests/MaintenanceMode/"
+      "J3rrey\\MaintenanceMode\\Testing\\": "src/tests/MaintenanceMode/"
     }
   },
   "config":{
