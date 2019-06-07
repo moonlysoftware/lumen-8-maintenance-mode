@@ -52,7 +52,7 @@ php artisan up
 ```
 
 ## IP released for access
-
+Currently only ipv4 and no iprange
 In .env file
 
 ```
