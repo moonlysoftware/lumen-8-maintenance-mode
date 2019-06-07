@@ -1,6 +1,6 @@
 <?php
 
-namespace Rdehnhardt\MaintenanceMode\Console\Commands;
+namespace j3rrey\MaintenanceMode\Console\Commands;
 
 class UpCommand extends Command
 {

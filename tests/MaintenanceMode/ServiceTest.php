@@ -1,9 +1,9 @@
 <?php
 
-namespace Rdehnhardt\MaintenanceMode\Testing;
+namespace j3rrey\MaintenanceMode\Testing;
 
-use Rdehnhardt\MaintenanceMode\MaintenanceModeService;
-use Rdehnhardt\MaintenanceMode\Providers\MaintenanceModeServiceProvider;
+use j3rrey\MaintenanceMode\MaintenanceModeService;
+use j3rrey\MaintenanceMode\Providers\MaintenanceModeServiceProvider;
 
 class ServiceTest extends AbstractTestCase
 {

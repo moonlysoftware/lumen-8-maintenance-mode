@@ -1,11 +1,11 @@
 <?php
 
-namespace Rdehnhardt\MaintenanceMode\Console\Commands;
+namespace j3rrey\MaintenanceMode\Console\Commands;
 
-use Illuminate\Console\Command as IlluminateCommand;
-use Rdehnhardt\MaintenanceMode\MaintenanceModeService;
+use Illuminate\Console\Command;
+use j3rrey\MaintenanceMode\MaintenanceModeService;
 
-abstract class Command extends IlluminateCommand
+abstract class MaintenanceCommand extends Command
 {
     /**
      * Maintenance Service.
@@ -15,7 +15,7 @@ abstract class Command extends IlluminateCommand
     protected $maintenance;
 
     /**
-     * @param \Rdehnhardt\MaintenanceMode\MaintenanceModeService $maintenance
+     * @param \j3rrey\MaintenanceMode\MaintenanceModeService $maintenance
      */
     public function __construct(MaintenanceModeService $maintenance)
     {
@@ -35,7 +35,7 @@ abstract class Command extends IlluminateCommand
      * Set Application Up Mode.
      *
      * @return void
-     * @throws \Rdehnhardt\MaintenanceMode\Exceptions\FileException
+     * @throws \j3rrey\MaintenanceMode\Exceptions\FileException
      */
     public function setUpMode()
     {
@@ -47,7 +47,7 @@ abstract class Command extends IlluminateCommand
      * Set Application Down Mode.
      *
      * @return void
-     * @throws \Rdehnhardt\MaintenanceMode\Exceptions\FileException
+     * @throws \j3rrey\MaintenanceMode\Exceptions\FileException
      */
     public function setDownMode()
     {
