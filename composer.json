@@ -8,7 +8,7 @@
     {
       "name": "no one",
       "email": "nono@nono.com"
-    },
+    }
   ],
   "require": {
     "php": ">=7.0",
