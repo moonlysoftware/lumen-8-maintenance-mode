@@ -8,6 +8,20 @@
     "php": ">=7.0",
     "laravel/lumen-framework": "~5.8"
   },
+  "authors": [
+    {
+      "name": "Jeremy Bruns",
+      "email": "J3rrey.git@gmail.com"
+    },
+    {
+      "name": "Renato Dehnhardt",
+      "email": "renatotkd@gmail.com"
+    },
+    {
+      "name": "Vagner do Carmo",
+      "email": "vluzrmos@gmail.com"
+    }
+  ],
   "require-dev": {
     "laravel/lumen":"~5.8",
     "phpunit/phpunit": "~7.0",
