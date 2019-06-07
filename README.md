@@ -3,8 +3,6 @@
 [![Latest Stable Version](https://poser.pugx.org/j3rrey/lumen-maintenance-mode/v/stable)](https://packagist.org/packages/j3rrey/lumen-maintenance-mode)
 
 [![Build Status](https://travis-ci.org/j3rrey/lumen-maintenance-mode.svg)](https://travis-ci.org/rdehnhardt/lumen-maintenance-mode)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/j3rrey/lumen-maintenance-mode/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/j3rrey/lumen-maintenance-mode/?branch=master)
-
 
 
 
