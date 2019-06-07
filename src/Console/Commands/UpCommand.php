@@ -2,7 +2,7 @@
 
 namespace j3rrey\MaintenanceMode\Console\Commands;
 
-class UpCommand extends Command
+class UpCommand extends MaintenanceCommand
 {
     /**
      * @var string
