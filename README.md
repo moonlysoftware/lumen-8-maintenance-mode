@@ -68,6 +68,6 @@ https://github.com/laravel/laravel/blob/696ab5149e6b6169f73b75321eaabf47a4a26645
 
 Default View:
 
-![Default View]("https://i.postimg.cc/8pH9pXZx/Screen-Shot-2019-06-12-at-11-24-08.png")
+![Default View](https://i.postimg.cc/8pH9pXZx/Screen-Shot-2019-06-12-at-11-24-08.png)
 
 
