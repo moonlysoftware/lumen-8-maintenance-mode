@@ -39,20 +39,20 @@ Example views at the bottom
 resources/views/errors/503.blade.php
 ```
 
-## Put the application into maintenance mode.
+## Maintenance Mode on
 
 ```
 php artisan down
 ```
 
-## Bring the application out of maintenance mode.
+## Maintenance Mode off
 
 ```
 php artisan up
 ```
 
-## IP released for access
-Currently only ipv4 and no iprange
+## IP based access
+Currently only ipv4 and no ipranges
 
 Add ALLOWED_IPS in your .env file
 
@@ -64,4 +64,10 @@ ALLOWED_IPS=192.168.1.2,127.0.0.1,136.22.16.0
 
 Laravel 503 blade file(2016):
 https://github.com/laravel/laravel/blob/696ab5149e6b6169f73b75321eaabf47a4a26645/resources/views/errors/503.blade.php
+
+
+Default View:
+
+![Default View](https://postimg.cc/p5tfLDd9")
+
 
