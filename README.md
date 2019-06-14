@@ -60,6 +60,13 @@ Add ALLOWED_IPS in your .env file
 ALLOWED_IPS=192.168.1.2,127.0.0.1,136.22.16.0
 ```
 
+Features planned:
+- Ip Ranges,
+- Maintenance without view options
+- Dynamic DNS Ip Filtering
+
+
+
 ## Example view
 
 Laravel 503 blade file(2016):
