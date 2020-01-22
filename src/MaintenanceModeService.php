@@ -1,6 +1,6 @@
 <?php
 
-namespace j3rrey\MaintenanceMode;
+namespace faizalmansor\MaintenanceMode;
 
 use Laravel\Lumen\Application;
 
