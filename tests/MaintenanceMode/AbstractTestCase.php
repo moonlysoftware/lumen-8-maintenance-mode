@@ -1,6 +1,6 @@
 <?php
 
-namespace j3rrey\MaintenanceMode\Testing;
+namespace faizalmansor\MaintenanceMode\Testing;
 
 use Laravel\Lumen\Application;
 use Laravel\Lumen\Testing\TestCase;
