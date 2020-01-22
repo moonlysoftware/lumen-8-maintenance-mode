@@ -1,6 +1,6 @@
 <?php
 
-namespace j3rrey\MaintenanceMode\Exceptions;
+namespace faizalmansor\MaintenanceMode\Exceptions;
 
 use RuntimeException;
 
