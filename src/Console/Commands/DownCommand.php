@@ -21,12 +21,14 @@ class DownCommand extends MaintenanceCommand
      */
     public function handle()
     {
+        /*
         $viewPath = App::resourcePath('views/errors/503.blade.php');
         if( !$this->viewExists($viewPath) ){
             if($this->ask('Maintenance view does not exists, should I create one ?')){
                 $this->createMaintenanceView($viewPath);
             };
         }
+        */
 
         if ($this->maintenance->isUpMode()) {
             $this->setDownMode();
