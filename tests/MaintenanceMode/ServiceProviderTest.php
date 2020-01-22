@@ -1,11 +1,11 @@
 <?php
 
-namespace j3rrey\MaintenanceMode\Testing;
+namespace faizalmansor\MaintenanceMode\Testing;
 
-use j3rrey\MaintenanceMode\Console\Commands\DownCommand;
-use j3rrey\MaintenanceMode\Console\Commands\UpCommand;
-use j3rrey\MaintenanceMode\MaintenanceModeService;
-use j3rrey\MaintenanceMode\Providers\MaintenanceModeServiceProvider;
+use faizalmansor\MaintenanceMode\Console\Commands\DownCommand;
+use faizalmansor\MaintenanceMode\Console\Commands\UpCommand;
+use faizalmansor\MaintenanceMode\MaintenanceModeService;
+use faizalmansor\MaintenanceMode\Providers\MaintenanceModeServiceProvider;
 
 class ServiceProviderTest extends AbstractTestCase
 {
