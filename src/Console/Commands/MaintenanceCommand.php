@@ -1,9 +1,9 @@
 <?php
 
-namespace j3rrey\MaintenanceMode\Console\Commands;
+namespace faizalmansor\MaintenanceMode\Console\Commands;
 
 use Illuminate\Console\Command;
-use j3rrey\MaintenanceMode\MaintenanceModeService;
+use faizalmansor\MaintenanceMode\MaintenanceModeService;
 
 abstract class MaintenanceCommand extends Command
 {
@@ -15,7 +15,7 @@ abstract class MaintenanceCommand extends Command
     protected $maintenance;
 
     /**
-     * @param \j3rrey\MaintenanceMode\MaintenanceModeService $maintenance
+     * @param \faizalmansor\MaintenanceMode\MaintenanceModeService $maintenance
      */
     public function __construct(MaintenanceModeService $maintenance)
     {
@@ -35,7 +35,7 @@ abstract class MaintenanceCommand extends Command
      * Set Application Up Mode.
      *
      * @return void
-     * @throws \j3rrey\MaintenanceMode\Exceptions\FileException
+     * @throws \faizalmansor\MaintenanceMode\Exceptions\FileException
      */
     public function setUpMode()
     {
@@ -47,7 +47,7 @@ abstract class MaintenanceCommand extends Command
      * Set Application Down Mode.
      *
      * @return void
-     * @throws \j3rrey\MaintenanceMode\Exceptions\FileException
+     * @throws \faizalmansor\MaintenanceMode\Exceptions\FileException
      */
     public function setDownMode()
     {
