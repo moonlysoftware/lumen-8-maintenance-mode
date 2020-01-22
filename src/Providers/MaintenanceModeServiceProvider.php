@@ -1,12 +1,12 @@
 <?php
 
-namespace j3rrey\MaintenanceMode\Providers;
+namespace faizalmansor\MaintenanceMode\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use j3rrey\MaintenanceMode\Console\Commands\DownCommand;
-use j3rrey\MaintenanceMode\Console\Commands\UpCommand;
-use j3rrey\MaintenanceMode\Http\Middleware\MaintenanceModeMiddleware;
-use j3rrey\MaintenanceMode\MaintenanceModeService;
+use faizalmansor\MaintenanceMode\Console\Commands\DownCommand;
+use faizalmansor\MaintenanceMode\Console\Commands\UpCommand;
+use faizalmansor\MaintenanceMode\Http\Middleware\MaintenanceModeMiddleware;
+use faizalmansor\MaintenanceMode\MaintenanceModeService;
 
 class MaintenanceModeServiceProvider extends ServiceProvider
 {
