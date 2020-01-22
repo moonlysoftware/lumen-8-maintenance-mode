@@ -1,13 +1,13 @@
-# Lumen 5 simple maintenance mode
+# Lumen 6 simple maintenance mode
 
 [![Build Status](https://travis-ci.org/j3rrey/lumen-maintenance-mode.svg)](https://travis-ci.org/j3rrey/lumen-maintenance-mode)
 
-php 7.2 Lumen 5.8
+php 7.3 Lumen 6.2
 
 ## How to install
 
 ```
-composer require j3rrey/lumen-5-maintenance-mode
+composer require faizalmansor/lumen-6-maintenance-mode
 ```
 
 ## How to configure
@@ -15,7 +15,7 @@ Add this to your AppServiceProvider or in bootstrap/app.php
 
 ```
 $app->register(
-    j3rrey\MaintenanceMode\Providers\MaintenanceModeServiceProvider::class
+    faizalmansor\MaintenanceMode\Providers\MaintenanceModeServiceProvider::class
 );
 ```
 
@@ -23,8 +23,8 @@ Add the up and down commands in app/console/Kernel.php
 
 ```
     protected $commands = [
-        \j3rrey\MaintenanceMode\Console\Commands\DownCommand::class,
-        \j3rrey\MaintenanceMode\Console\Commands\UpCommand::class
+        \faizalmansor\MaintenanceMode\Console\Commands\DownCommand::class,
+        \faizalmansor\MaintenanceMode\Console\Commands\UpCommand::class
     ];
 ```
 
@@ -61,9 +61,9 @@ ALLOWED_IPS=192.168.1.2,127.0.0.1,136.22.16.0
 ```
 
 Features planned:
-- Ip Ranges,
+- IP Ranges,
 - Maintenance without view options
-- Dynamic DNS Ip Filtering
+- Dynamic DNS IP Filtering
 
 
 
