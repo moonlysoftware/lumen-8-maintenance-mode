@@ -1,18 +1,18 @@
 <?php
 
-namespace j3rrey\MaintenanceMode\Http\Middleware;
+namespace faizalmansor\MaintenanceMode\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use j3rrey\MaintenanceMode\MaintenanceModeService;
+use faizalmansor\MaintenanceMode\MaintenanceModeService;
 
 class MaintenanceModeMiddleware
 {
     /**
      * Maintenance Mode Service.
      *
-     * @var \j3rrey\MaintenanceMode\MaintenanceModeService
+     * @var \faizalmansor\MaintenanceMode\MaintenanceModeService
      */
     protected $maintenance;
 
