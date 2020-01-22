@@ -1,6 +1,6 @@
 # Lumen 6 simple maintenance mode
 
-[![Build Status](https://travis-ci.org/j3rrey/lumen-maintenance-mode.svg)](https://travis-ci.org/j3rrey/lumen-maintenance-mode)
+[![Build Status](https://travis-ci.com/faizalmansor/lumen-6-maintenance-mode.svg?branch=master)](https://travis-ci.com/faizalmansor/lumen-6-maintenance-mode)
 
 php 7.3 Lumen 6.2
 
