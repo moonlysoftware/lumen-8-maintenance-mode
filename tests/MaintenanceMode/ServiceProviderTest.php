@@ -9,7 +9,7 @@ use faizalmansor\MaintenanceMode\Providers\MaintenanceModeServiceProvider;
 
 class ServiceProviderTest extends AbstractTestCase
 {
-    public function setUp()
+    public function setUp() :void
     {
         parent::setUp();
 
