@@ -1,6 +1,9 @@
 # Lumen 6 simple maintenance mode
 
 [![Build Status](https://travis-ci.com/faizalmansor/lumen-6-maintenance-mode.svg?branch=master)](https://travis-ci.com/faizalmansor/lumen-6-maintenance-mode)
+[![Latest Stable Version](https://poser.pugx.org/faizalmansor/lumen-6-maintenance-mode/v/stable)](https://packagist.org/packages/faizalmansor/lumen-6-maintenance-mode)
+[![Total Downloads](https://poser.pugx.org/faizalmansor/lumen-6-maintenance-mode/downloads)](https://packagist.org/packages/faizalmansor/lumen-6-maintenance-mode)
+[![License](https://poser.pugx.org/faizalmansor/lumen-6-maintenance-mode/license)](https://packagist.org/packages/faizalmansor/lumen-6-maintenance-mode)
 
 php 7.3 Lumen 6.2
 
