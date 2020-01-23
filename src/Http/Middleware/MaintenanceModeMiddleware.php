@@ -38,11 +38,11 @@ class MaintenanceModeMiddleware
     public function handle($request, Closure $next)
     {
         if ($this->maintenance->isDownMode() && !$this->maintenance->checkAllowedIp($this->getIp())) {
-            if (app()['view']->exists('errors.503')) {
-                return new Response(app()['view']->make('errors.503'), 503);
-            }
-
-            return app()->abort(503, 'The application is down for maintenance.');
+            return response()->json([
+                'error' => [
+                    'message' => 'The application is down for maintenance.'
+                ]
+            ], 503);
         }
 
         return $next($request);
