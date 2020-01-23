@@ -28,17 +28,6 @@ Add the up and down commands in app/console/Kernel.php
     ];
 ```
 
-
-## Customize View
-
-In case there is no 503 view file you will be asked if it should be created for you when putting your application in maintenance mode.
-
-Example views at the bottom
-
-```
-resources/views/errors/503.blade.php
-```
-
 ## Maintenance Mode on
 
 ```
@@ -61,20 +50,5 @@ ALLOWED_IPS=192.168.1.2,127.0.0.1,136.22.16.0
 ```
 
 Features planned:
-- IP Ranges,
-- Maintenance without view options
+- IP Ranges
 - Dynamic DNS IP Filtering
-
-
-
-## Example view
-
-Laravel 503 blade file(2016):
-https://github.com/laravel/laravel/blob/696ab5149e6b6169f73b75321eaabf47a4a26645/resources/views/errors/503.blade.php
-
-
-Default View:
-
-![Default View](https://i.postimg.cc/8pH9pXZx/Screen-Shot-2019-06-12-at-11-24-08.png)
-
-
