@@ -45,7 +45,7 @@ class ServiceProviderTest extends AbstractTestCase
 
             $this->artisan('invalid.command');
         } catch (\InvalidArgumentException $e) {
-            $this->assertStringMatchesFormat('Command "invalid.command" is not defined.', $e->getMessage());
+            $this->assertStringMatchesFormat('The command "invalid.command" does not exist.', $e->getMessage());
         }
     }
 }

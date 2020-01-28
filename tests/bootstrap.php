@@ -85,8 +85,10 @@ $app->singleton(
 |
 */
 
-$app->group(['namespace' => 'App\Http\Controllers'], function ($app) use ($lumenAppDir) {
-    require $lumenAppDir.'/app/Http/routes.php';
+$router = $app->router;
+
+$router->group(['namespace' => 'App\Http\Controllers'], function ($router) use ($lumenAppDir) {
+    require $lumenAppDir.'/routes/web.php';
 });
 
 return $app;
