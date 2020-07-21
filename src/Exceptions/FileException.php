@@ -1,6 +1,6 @@
 <?php
 
-namespace faizalmansor\MaintenanceMode\Exceptions;
+namespace oct8pus\MaintenanceMode\Exceptions;
 
 use RuntimeException;
 

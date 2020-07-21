@@ -1,9 +1,9 @@
 <?php
 
-namespace faizalmansor\MaintenanceMode\Console\Commands;
+namespace oct8pus\MaintenanceMode\Console\Commands;
 
 use Illuminate\Console\Command;
-use faizalmansor\MaintenanceMode\MaintenanceModeService;
+use oct8pus\MaintenanceMode\MaintenanceModeService;
 
 abstract class MaintenanceCommand extends Command
 {
@@ -15,7 +15,7 @@ abstract class MaintenanceCommand extends Command
     protected $maintenance;
 
     /**
-     * @param \faizalmansor\MaintenanceMode\MaintenanceModeService $maintenance
+     * @param \oct8pus\MaintenanceMode\MaintenanceModeService $maintenance
      */
     public function __construct(MaintenanceModeService $maintenance)
     {
@@ -35,7 +35,7 @@ abstract class MaintenanceCommand extends Command
      * Set Application Up Mode.
      *
      * @return void
-     * @throws \faizalmansor\MaintenanceMode\Exceptions\FileException
+     * @throws \oct8pus\MaintenanceMode\Exceptions\FileException
      */
     public function setUpMode()
     {
@@ -47,7 +47,7 @@ abstract class MaintenanceCommand extends Command
      * Set Application Down Mode.
      *
      * @return void
-     * @throws \faizalmansor\MaintenanceMode\Exceptions\FileException
+     * @throws \oct8pus\MaintenanceMode\Exceptions\FileException
      */
     public function setDownMode()
     {

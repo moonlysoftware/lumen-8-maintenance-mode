@@ -1,6 +1,6 @@
 <?php
 
-namespace faizalmansor\MaintenanceMode\Console\Commands;
+namespace oct8pus\MaintenanceMode\Console\Commands;
 
 use Illuminate\Support\Facades\App;
 

@@ -1,11 +1,11 @@
 <?php
 
-namespace faizalmansor\MaintenanceMode\Testing;
+namespace oct8pus\MaintenanceMode\Testing;
 
-use faizalmansor\MaintenanceMode\Console\Commands\DownCommand;
-use faizalmansor\MaintenanceMode\Console\Commands\UpCommand;
-use faizalmansor\MaintenanceMode\MaintenanceModeService;
-use faizalmansor\MaintenanceMode\Providers\MaintenanceModeServiceProvider;
+use oct8pus\MaintenanceMode\Console\Commands\DownCommand;
+use oct8pus\MaintenanceMode\Console\Commands\UpCommand;
+use oct8pus\MaintenanceMode\MaintenanceModeService;
+use oct8pus\MaintenanceMode\Providers\MaintenanceModeServiceProvider;
 
 class ServiceProviderTest extends AbstractTestCase
 {

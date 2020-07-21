@@ -1,9 +1,9 @@
 <?php
 
-namespace faizalmansor\MaintenanceMode\Testing;
+namespace oct8pus\MaintenanceMode\Testing;
 
-use faizalmansor\MaintenanceMode\MaintenanceModeService;
-use faizalmansor\MaintenanceMode\Providers\MaintenanceModeServiceProvider;
+use oct8pus\MaintenanceMode\MaintenanceModeService;
+use oct8pus\MaintenanceMode\Providers\MaintenanceModeServiceProvider;
 
 class ServiceTest extends AbstractTestCase
 {

@@ -1,16 +1,16 @@
 # Lumen 6 simple maintenance mode
 
-[![Build Status](https://travis-ci.com/faizalmansor/lumen-6-maintenance-mode.svg?branch=master)](https://travis-ci.com/faizalmansor/lumen-6-maintenance-mode)
-[![Latest Stable Version](https://poser.pugx.org/faizalmansor/lumen-6-maintenance-mode/v/stable)](https://packagist.org/packages/faizalmansor/lumen-6-maintenance-mode)
-[![Total Downloads](https://poser.pugx.org/faizalmansor/lumen-6-maintenance-mode/downloads)](https://packagist.org/packages/faizalmansor/lumen-6-maintenance-mode)
-[![License](https://poser.pugx.org/faizalmansor/lumen-6-maintenance-mode/license)](https://packagist.org/packages/faizalmansor/lumen-6-maintenance-mode)
+[![Build Status](https://travis-ci.com/8ctopus/lumen-7-maintenance-mode.svg?branch=master)](https://travis-ci.com/8ctopus/lumen-7-maintenance-mode)
+[![Latest Stable Version](https://poser.pugx.org/8ctopus/lumen-7-maintenance-mode/v/stable)](https://packagist.org/packages/8ctopus/lumen-7-maintenance-mode)
+[![Total Downloads](https://poser.pugx.org/8ctopus/lumen-7-maintenance-mode/downloads)](https://packagist.org/packages/8ctopus/lumen-7-maintenance-mode)
+[![License](https://poser.pugx.org/8ctopus/lumen-7-maintenance-mode/license)](https://packagist.org/packages/8ctopus/lumen-7-maintenance-mode)
 
 php 7.3 Lumen 6.2
 
 ## How to install
 
 ```
-composer require faizalmansor/lumen-6-maintenance-mode
+composer require 8ctopus/lumen-7-maintenance-mode
 ```
 
 ## How to configure
@@ -18,7 +18,7 @@ Add this to your AppServiceProvider or in bootstrap/app.php
 
 ```
 $app->register(
-    faizalmansor\MaintenanceMode\Providers\MaintenanceModeServiceProvider::class
+    oct8pus\MaintenanceMode\Providers\MaintenanceModeServiceProvider::class
 );
 ```
 
@@ -26,8 +26,8 @@ Add the up and down commands in app/console/Kernel.php
 
 ```
     protected $commands = [
-        \faizalmansor\MaintenanceMode\Console\Commands\DownCommand::class,
-        \faizalmansor\MaintenanceMode\Console\Commands\UpCommand::class
+        \oct8pus\MaintenanceMode\Console\Commands\DownCommand::class,
+        \oct8pus\MaintenanceMode\Console\Commands\UpCommand::class
     ];
 ```
 

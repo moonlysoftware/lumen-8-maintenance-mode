@@ -1,12 +1,12 @@
 <?php
 
-namespace faizalmansor\MaintenanceMode\Providers;
+namespace oct8pus\MaintenanceMode\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use faizalmansor\MaintenanceMode\Console\Commands\DownCommand;
-use faizalmansor\MaintenanceMode\Console\Commands\UpCommand;
-use faizalmansor\MaintenanceMode\Http\Middleware\MaintenanceModeMiddleware;
-use faizalmansor\MaintenanceMode\MaintenanceModeService;
+use oct8pus\MaintenanceMode\Console\Commands\DownCommand;
+use oct8pus\MaintenanceMode\Console\Commands\UpCommand;
+use oct8pus\MaintenanceMode\Http\Middleware\MaintenanceModeMiddleware;
+use oct8pus\MaintenanceMode\MaintenanceModeService;
 
 class MaintenanceModeServiceProvider extends ServiceProvider
 {
