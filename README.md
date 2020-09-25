@@ -1,11 +1,11 @@
-# Lumen 7 simple maintenance mode
+# Lumen 8 simple maintenance mode
 
 [![Build Status](https://travis-ci.com/usmanjdn93/lumen-7-maintenance-mode.svg?branch=master)](https://travis-ci.com/usmanjdn93/lumen-7-maintenance-mode)
 [![Latest Stable Version](https://poser.pugx.org/usmanjdn93/lumen-7-maintenance-mode/v/stable)](https://packagist.org/packages/usmanjdn93/lumen-7-maintenance-mode)
 [![Total Downloads](https://poser.pugx.org/usmanjdn93/lumen-7-maintenance-mode/downloads)](https://packagist.org/packages/usmanjdn93/lumen-7-maintenance-mode)
 [![License](https://poser.pugx.org/usmanjdn93/lumen-7-maintenance-mode/license)](https://packagist.org/packages/usmanjdn93/lumen-7-maintenance-mode)
 
-php 7.3 Lumen 7.x
+php 7.2 Lumen 8.x
 
 ## How to install
 
