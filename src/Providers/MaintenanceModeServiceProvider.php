@@ -1,12 +1,12 @@
 <?php
 
-namespace oct8pus\MaintenanceMode\Providers;
+namespace usmanjdn93\MaintenanceMode\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use oct8pus\MaintenanceMode\Console\Commands\DownCommand;
-use oct8pus\MaintenanceMode\Console\Commands\UpCommand;
-use oct8pus\MaintenanceMode\Http\Middleware\MaintenanceModeMiddleware;
-use oct8pus\MaintenanceMode\MaintenanceModeService;
+use usmanjdn93\MaintenanceMode\Console\Commands\DownCommand;
+use usmanjdn93\MaintenanceMode\Console\Commands\UpCommand;
+use usmanjdn93\MaintenanceMode\Http\Middleware\MaintenanceModeMiddleware;
+use usmanjdn93\MaintenanceMode\MaintenanceModeService;
 
 class MaintenanceModeServiceProvider extends ServiceProvider
 {

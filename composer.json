@@ -28,23 +28,27 @@
     {
       "name": "8ctopus",
       "email": "hello@oct8puslabs.io"
+    },
+    {
+      "name": "usmanjdn93",
+      "email": "usmanjadoon93@gmail.com"
     }
   ],
   "require-dev": {
-      "laravel/lumen":"~7.0",
+      "laravel/lumen":"~8.0",
       "phpunit/phpunit": "^8.5",
       "fzaninotto/faker": "^1.9.1",
       "friendsofphp/php-cs-fixer": "^2.15"
   },
   "autoload": {
     "psr-4": {
-      "oct8pus\\MaintenanceMode\\": "src"
+      "usmanjdn93\\MaintenanceMode\\": "src"
     }
   }
   ,
   "autoload-dev": {
     "psr-4": {
-      "oct8pus\\MaintenanceMode\\Testing\\": "src/tests/MaintenanceMode/"
+      "usmanjdn93\\MaintenanceMode\\Testing\\": "src/tests/MaintenanceMode/"
     }
   },
   "config":{
