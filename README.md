@@ -9,7 +9,7 @@ php 7.2 Lumen 8.x
 
 ## How to install
 
-    composer require usmanjdn93/lumen-7-maintenance-mode
+    composer require usmanjdn93/lumen-8-maintenance-mode
 
 ## How to configure
 Add this to your AppServiceProvider or in bootstrap/app.php
