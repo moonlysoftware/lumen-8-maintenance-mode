@@ -1,6 +1,6 @@
 <?php
 
-namespace usmanjdn93\MaintenanceMode\Exceptions;
+namespace MoonlySoftware\MaintenanceMode\Exceptions;
 
 use RuntimeException;
 

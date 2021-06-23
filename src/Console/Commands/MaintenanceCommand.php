@@ -1,9 +1,9 @@
 <?php
 
-namespace usmanjdn93\MaintenanceMode\Console\Commands;
+namespace MoonlySoftware\MaintenanceMode\Console\Commands;
 
 use Illuminate\Console\Command;
-use usmanjdn93\MaintenanceMode\MaintenanceModeService;
+use MoonlySoftware\MaintenanceMode\MaintenanceModeService;
 
 abstract class MaintenanceCommand extends Command
 {
@@ -15,7 +15,7 @@ abstract class MaintenanceCommand extends Command
     protected $maintenance;
 
     /**
-     * @param \oct8pus\MaintenanceMode\MaintenanceModeService $maintenance
+     * @param \MoonlySoftware\MaintenanceMode\MaintenanceModeService $maintenance
      */
     public function __construct(MaintenanceModeService $maintenance)
     {
@@ -35,7 +35,7 @@ abstract class MaintenanceCommand extends Command
      * Set Application Up Mode.
      *
      * @return void
-     * @throws \oct8pus\MaintenanceMode\Exceptions\FileException
+     * @throws \MoonlySoftware\MaintenanceMode\Exceptions\FileException
      */
     public function setUpMode()
     {
@@ -47,7 +47,7 @@ abstract class MaintenanceCommand extends Command
      * Set Application Down Mode.
      *
      * @return void
-     * @throws \oct8pus\MaintenanceMode\Exceptions\FileException
+     * @throws \MoonlySoftware\MaintenanceMode\Exceptions\FileException
      */
     public function setDownMode()
     {

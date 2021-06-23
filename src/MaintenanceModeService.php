@@ -1,6 +1,6 @@
 <?php
 
-namespace usmanjdn93\MaintenanceMode;
+namespace MoonlySoftware\MaintenanceMode;
 
 use Laravel\Lumen\Application;
 

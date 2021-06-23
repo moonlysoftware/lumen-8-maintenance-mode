@@ -1,5 +1,5 @@
 {
-  "name": "usmanjdn93/lumen-8-maintenance-mode",
+  "name": "moonlysoftware/lumen-8-maintenance-mode",
   "type": "library",
   "description": "Define application maintenance mode.",
   "keywords": ["lumen", "maintenance", "mode"],
@@ -32,6 +32,10 @@
     {
       "name": "usmanjdn93",
       "email": "usmanjadoon93@gmail.com"
+    },
+    {
+      "name": "Moonly Software",
+      "email": "thijs@moonlysoftware.com"
     }
   ],
   "require-dev": {
@@ -42,13 +46,13 @@
   },
   "autoload": {
     "psr-4": {
-      "usmanjdn93\\MaintenanceMode\\": "src"
+      "MoonlySoftware\\MaintenanceMode\\": "src"
     }
   }
   ,
   "autoload-dev": {
     "psr-4": {
-      "usmanjdn93\\MaintenanceMode\\Testing\\": "src/tests/MaintenanceMode/"
+      "MoonlySoftware\\MaintenanceMode\\Testing\\": "src/tests/MaintenanceMode/"
     }
   },
   "config":{

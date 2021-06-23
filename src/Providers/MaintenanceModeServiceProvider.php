@@ -1,12 +1,12 @@
 <?php
 
-namespace usmanjdn93\MaintenanceMode\Providers;
+namespace MoonlySoftware\MaintenanceMode\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use usmanjdn93\MaintenanceMode\Console\Commands\DownCommand;
-use usmanjdn93\MaintenanceMode\Console\Commands\UpCommand;
-use usmanjdn93\MaintenanceMode\Http\Middleware\MaintenanceModeMiddleware;
-use usmanjdn93\MaintenanceMode\MaintenanceModeService;
+use MoonlySoftware\MaintenanceMode\Console\Commands\DownCommand;
+use MoonlySoftware\MaintenanceMode\Console\Commands\UpCommand;
+use MoonlySoftware\MaintenanceMode\Http\Middleware\MaintenanceModeMiddleware;
+use MoonlySoftware\MaintenanceMode\MaintenanceModeService;
 
 class MaintenanceModeServiceProvider extends ServiceProvider
 {

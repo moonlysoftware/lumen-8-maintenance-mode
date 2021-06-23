@@ -1,19 +1,19 @@
 <?php
 
-namespace usmanjdn93\MaintenanceMode\Http\Middleware;
+namespace MoonlySoftware\MaintenanceMode\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\View;
-use usmanjdn93\MaintenanceMode\MaintenanceModeService;
+use MoonlySoftware\MaintenanceMode\MaintenanceModeService;
 
 class MaintenanceModeMiddleware
 {
     /**
      * Maintenance Mode Service.
      *
-     * @var \usmanjdn93\MaintenanceMode\MaintenanceModeService
+     * @var \MoonlySoftware\MaintenanceMode\MaintenanceModeService
      */
     protected $maintenance;
 

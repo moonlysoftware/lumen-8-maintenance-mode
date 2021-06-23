@@ -1,11 +1,11 @@
 <?php
 
-namespace usmanjdn93\MaintenanceMode\Testing;
+namespace usmanjMoonlySoftwaredn93\MaintenanceMode\Testing;
 
-use usmanjdn93\MaintenanceMode\Console\Commands\DownCommand;
-use usmanjdn93\MaintenanceMode\Console\Commands\UpCommand;
-use usmanjdn93\MaintenanceMode\MaintenanceModeService;
-use usmanjdn93\MaintenanceMode\Providers\MaintenanceModeServiceProvider;
+use MoonlySoftware\MaintenanceMode\Console\Commands\DownCommand;
+use MoonlySoftware\MaintenanceMode\Console\Commands\UpCommand;
+use MoonlySoftware\MaintenanceMode\MaintenanceModeService;
+use MoonlySoftware\MaintenanceMode\Providers\MaintenanceModeServiceProvider;
 
 class ServiceProviderTest extends AbstractTestCase
 {
