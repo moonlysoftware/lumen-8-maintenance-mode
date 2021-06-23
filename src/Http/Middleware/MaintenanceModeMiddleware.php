@@ -38,7 +38,7 @@ class MaintenanceModeMiddleware
      */
     public function handle($request, Closure $next)
     {
-        if ($this->maintenance->isDownMode() && !$this->maintenance->checkAllowedIp($this->getIp())) {
+        if ($this->maintenance->isDownMode() && (!$this->maintenance->checkAllowedIp($this->getIp()) || !$request->hasCookie('maintenance_bypass'))) {
             if (View::exists('errors.503')) {
                 return view('errors.503');
             }
