@@ -5,6 +5,7 @@ namespace usmanjdn93\MaintenanceMode\Http\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\View;
 use usmanjdn93\MaintenanceMode\MaintenanceModeService;
 
 class MaintenanceModeMiddleware
@@ -38,6 +39,9 @@ class MaintenanceModeMiddleware
     public function handle($request, Closure $next)
     {
         if ($this->maintenance->isDownMode() && !$this->maintenance->checkAllowedIp($this->getIp())) {
+            if (View::exists('errors.503')) {
+                return view('errors.503');
+            }
             return response()->json([
                 'error' => [
                     'message' => 'The application is down for maintenance.'
